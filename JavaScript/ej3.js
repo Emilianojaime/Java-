@@ -11,11 +11,13 @@
 months.sort();
 console.log('Los meses ordenados alfabeticamente son', months);
 
- // c)
+ // c) Nota: nose porque en los navegadores no se visualiza bien el arreglo al expandirlo.
 
  var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
  months.push('Elemento Posterior');
+ console.log(months);
  months.unshift('Elemento Anterior');
+ console.log(months);
  console.log('El arreglo con los elemntos agregados es', months);
 
  // d)
